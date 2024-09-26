@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/CardPost.astro";
+const allPosts = await getCollection("posts");
+const pageTitle = "Posts";
+---
+
+<Layout pageTitle={pageTitle}>
+    <div class="gif">
+        <img width="300" height="259" alt="RaccoonNotesGif" src="/blog.webp" />
+    </div>
+    <h2>Resume</h2>
+    <br/>
+    <a href="/CV-RicaNamoro.pdf" target="_blank" rel="noopener noreferrer">
+        Download my Resume (PDF)
+    </a>
+</Layout>
