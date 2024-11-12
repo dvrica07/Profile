@@ -180,7 +180,7 @@ small, li {
 .btn {
     text-align: center;
     background: rgba(0,0,0,0);
-    border: 2px solid var(--button);
+    border: 2px solid white;
     border-radius: 8px;
     color: var(--text);
     font: 600 16px var(--body);
@@ -189,7 +189,7 @@ small, li {
 }
 
 .btn:hover {
-    background-color: var(--button);
+    background-color: #71718d;
     color: var(--text-light);
     cursor: pointer;
 }
